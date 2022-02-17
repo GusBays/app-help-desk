@@ -10,7 +10,7 @@
 
     //cria um arquivo txt para inserir as informações dos chamados,
     // se não existir arquivo, um novo será criado
-    $arquivo = fopen('arquivo.txt', 'a');
+    $arquivo = fopen('../arquivo.txt', 'a');
 
     //concatena as informações formatadas antes separando por # e usa o end of line
     $texto = $_SESSION['id'] . '#' . $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;

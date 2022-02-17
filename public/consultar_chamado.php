@@ -5,7 +5,7 @@
   $chamados = [];
 
   //abrir arquivo.txt passando parametro r de leitura, para buscar os chamados
-  $arquivo = fopen('arquivo.txt', 'r');
+  $arquivo = fopen('../arquivo.txt', 'r');
 
   //percorrer arquivo.txt enquanto houver linhas usando o end of file
   while(!feof($arquivo)) {
